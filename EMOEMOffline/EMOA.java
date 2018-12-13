@@ -18,7 +18,10 @@ public class EMOA extends Actor
         setRotation(0);
         move(1);
 }
-
+        if( Greenfoot.isKeyDown( "down" ) ){
+            setRotation(90);
+            move(3);
+        }
         if( Greenfoot.isKeyDown( "up" ) ){
         setRotation(270);
         move(10);

@@ -1,38 +1,22 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=c657fe78cfe418447c54a8f24931da26659a24d5
 class.EMOA.image=seal.png
 class.EMOA.superclass=greenfoot.Actor
 class.MyWorld.image=sandstone.jpg
 class.MyWorld.superclass=greenfoot.World
 mainWindow.height=546
 mainWindow.width=836
-<<<<<<< HEAD
-mainWindow.x=339
-mainWindow.y=415
-=======
 mainWindow.x=966
-<<<<<<< HEAD
-mainWindow.y=217
-=======
-mainWindow.y=245
->>>>>>> 95a84e24131142be240e640e43a7f906db28f9c3
->>>>>>> c657fe78cfe418447c54a8f24931da26659a24d5
+mainWindow.y=329
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-<<<<<<< HEAD
-target1.editor.x=105
-target1.editor.y=72
-=======
-<<<<<<< HEAD
-target1.editor.x=421
-target1.editor.y=212
-=======
 target1.editor.x=584
-target1.editor.y=52
->>>>>>> 95a84e24131142be240e640e43a7f906db28f9c3
->>>>>>> c657fe78cfe418447c54a8f24931da26659a24d5
+target1.editor.y=136
 target1.height=50
 target1.name=EMOA
 target1.naviview.expanded=true

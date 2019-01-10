@@ -27,8 +27,11 @@ public class EMOA extends Actor
 
         }// Add your action code here.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> d672d9575cf49dc70c8b7786ff6f1847811066a0
         if( Greenfoot.isKeyDown( "down" ) ){
             setRotation(90);
             move(3);

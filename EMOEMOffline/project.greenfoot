@@ -2,6 +2,7 @@
 #Thu Jan 10 09:38:18 JST 2019
 target2.name=EMOB
 <<<<<<<=HEAD
+<<<<<<< HEAD
 target2.showInterface=false
 target1.editor.width=900
 target3.y=10
@@ -13,6 +14,26 @@ target2.y=70
 package.numTargets=3
 target2.x=70
 class.EMOA.superclass=greenfoot.Actor
+=======
+>>>>>>>=f74545c67afd41032635ee5d626bffd52d0c75a3
+class.EMOA.image=seal.png
+class.EMOA.superclass=greenfoot.Actor
+class.EMOB.image=orange.png
+class.EMOB.superclass=greenfoot.Actor
+class.MyWorld.image=sandstone.jpg
+class.MyWorld.superclass=greenfoot.World
+mainWindow.height=546
+mainWindow.width=836
+mainWindow.x=966
+mainWindow.y=301
+package.numDependencies=0
+package.numTargets=3
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=584
+target1.editor.y=108
+>>>>>>> d672d9575cf49dc70c8b7786ff6f1847811066a0
 target1.height=50
 target1.y=10
 target2.height=50

@@ -14,33 +14,24 @@ public class EMOA extends Actor
      */
     public void act() 
     {
-
-       if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(1);
-}
-
-
-         if( Greenfoot.isKeyDown( "left" )){
-            setRotation(180);
+        if( Greenfoot.isKeyDown( "right" ) ){
+            //setRotation(0);
+            move(1);
+        }
+        if( Greenfoot.isKeyDown( "left" )){
+            //setRotation(180);
             move(1);// Add your action code here.
 
         }// Add your action code here.
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> d672d9575cf49dc70c8b7786ff6f1847811066a0
         if( Greenfoot.isKeyDown( "down" ) ){
-            setRotation(90);
+            //setRotation(90);
             move(3);
         }
 
         if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(270);
-        move(10);
-}// Add your action code here.
+            //setRotation(270);
+            move(10);
+        }// Add your action code here.
 
     }    
 }

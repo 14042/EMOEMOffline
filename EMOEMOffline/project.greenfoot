@@ -1,8 +1,7 @@
 #Greenfoot properties
-#Thu Jan 10 09:38:18 JST 2019
-target2.name=EMOB
+#Thu Jan 17 11:15:23 JST 2019
+target2.name=MyWorld
 <<<<<<<=HEAD
-<<<<<<< HEAD
 target2.showInterface=false
 target1.editor.width=900
 target3.y=10
@@ -10,30 +9,10 @@ target3.x=70
 target1.type=ClassTarget
 class.MyWorld.superclass=greenfoot.World
 target3.type=ClassTarget
-target2.y=70
-package.numTargets=3
+target2.y=10
+package.numTargets=2
 target2.x=70
 class.EMOA.superclass=greenfoot.Actor
-=======
->>>>>>>=f74545c67afd41032635ee5d626bffd52d0c75a3
-class.EMOA.image=seal.png
-class.EMOA.superclass=greenfoot.Actor
-class.EMOB.image=orange.png
-class.EMOB.superclass=greenfoot.Actor
-class.MyWorld.image=sandstone.jpg
-class.MyWorld.superclass=greenfoot.World
-mainWindow.height=546
-mainWindow.width=836
-mainWindow.x=966
-mainWindow.y=301
-package.numDependencies=0
-package.numTargets=3
-project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=584
-target1.editor.y=108
->>>>>>> d672d9575cf49dc70c8b7786ff6f1847811066a0
 target1.height=50
 target1.y=10
 target2.height=50
@@ -50,21 +29,19 @@ target2.typeParameters=
 target3.name=MyWorld
 mainWindow.width=836
 target1.typeParameters=
-target1.editor.y=109
-target1.editor.x=585
+target1.editor.y=276
+target1.editor.x=949
 target2.width=80
-mainWindow.y=329
+mainWindow.y=331
 target1.width=80
 mainWindow.height=546
-mainWindow.x=966
+mainWindow.x=615
 target3.width=80
 target2.type=ClassTarget
 target3.showInterface=false
 world.lastInstantiated=MyWorld
-class.EMOA.image=seal.png
+class.EMOA.image=girlfront1.png
 version=2.7.1
 package.numDependencies=0
-class.EMOB.superclass=greenfoot.Actor
-class.EMOB.image=orange.png
 project.charset=UTF-8
 =\=\=\=\=\=\=

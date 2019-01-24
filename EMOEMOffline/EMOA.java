@@ -1,5 +1,6 @@
 import greenfoot.*;
 
+
 /**
  * Write a description of class EMOA here.
  * 
@@ -14,29 +15,30 @@ public class EMOA extends Actor
      * Act - do whatever the EMOA wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+       
+
     public void act() 
     {
-
         int x = getX();
         int y = getY();
             if( Greenfoot.isKeyDown( "left" ) ){
                animateLeft();
-               setLocation( x-3,y );
+               setLocation( x-2,y );
                
             }
             if( Greenfoot.isKeyDown( "right" ) ){
                animateRight();
-               setLocation( x+3,y );
+               setLocation( x+2,y );
                
               }
             if( Greenfoot.isKeyDown( "up" ) ){
                animateUp(); 
-               setLocation( x,y-3 );
+               setLocation( x,y-2 );
               
             }
             if( Greenfoot.isKeyDown( "down" ) ){
               animateDown();
-              setLocation( x,y+3 );
+              setLocation( x,y+2 );
                
             }
         }// Add your action code here.

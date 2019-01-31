@@ -23,24 +23,33 @@ public class EMOA extends Actor
         int y = getY();
             if( Greenfoot.isKeyDown( "left" ) ){
                animateLeft();
-               setLocation( x-2,y );
-               
+               if(x-2 >= 75)
+               {
+                   setLocation( x-2,y );
+               }
             }
             if( Greenfoot.isKeyDown( "right" ) ){
                animateRight();
-               setLocation( x+2,y );
-               
-              }
+               if(x+2 <= 590)
+               {
+                   setLocation( x+2,y );
+               }
+            }
             if( Greenfoot.isKeyDown( "up" ) ){
                animateUp(); 
-               setLocation( x,y-2 );
-              
+               if(y-2 >= 100)
+               {
+                   setLocation( x,y-2 );
+               }
             }
             if( Greenfoot.isKeyDown( "down" ) ){
               animateDown();
-              setLocation( x,y+2 );
-               
+              if(y+2 <= 380)
+              {
+                  setLocation( x,y+2 );    
+              }
             }
+ 
         }// Add your action code here.
         
    public void animateLeft(){

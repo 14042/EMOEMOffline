@@ -1,9 +1,68 @@
-#Greenfoot project file
-=\=\=\=\=\=\=
+#Greenfoot properties
+#Thu Feb 14 09:44:09 JST 2019
+dependency9.type=UsesDependency
+target4.type=ClassTarget
 <<<<<<<=HEAD
+dependency3.from=MyWorld
+target6.editor.width=900
+target3.height=50
+target5.height=50
+dependency3.type=UsesDependency
+class.door.superclass=greenfoot.Actor
+target1.editor.y=249
+target1.editor.x=965
+target4.name=EMOB
+target4.typeParameters=
+target1.height=50
+target5.type=ClassTarget
+target3.typeParameters=
+dependency4.from=door
+mainWindow.width=890
+dependency4.type=UsesDependency
 >>>>>>>=e0ca3a2a84006deec0e3cc7054827fdf7ca62e0c
-class.EMOA.image=girlfront1.png
+target2.width=80
+target3.editor.y=307
+target3.editor.x=1020
+target5.name=MyWorld
+target5.editor.width=900
 class.EMOA.superclass=greenfoot.Actor
+<<<<<<< HEAD
+target5.editor.y=368
+target5.editor.x=1061
+version=2.7.1
+target2.naviview.expanded=true
+target6.naviview.expanded=true
+target4.editor.height=700
+target6.type=ClassTarget
+dependency1.to=EMOA
+class.EMOB.image=orange.png
+dependency5.from=MyWorld
+target2.editor.height=700
+dependency2.to=EMOB
+target1.width=80
+class.cat.superclass=greenfoot.Actor
+target6.editor.height=700
+dependency5.type=UsesDependency
+target2.typeParameters=
+dependency3.to=door
+target3.showInterface=false
+target6.name=MyWorld
+dependency4.to=EMOA
+dependency5.to=cat
+target1.showInterface=false
+target4.editor.width=900
+dependency6.to=test
+target5.showInterface=false
+target6.width=80
+target5.naviview.expanded=true
+target6.height=50
+dependency7.to=test
+class.EMOB.superclass=greenfoot.Actor
+dependency6.from=EMOA
+package.numTargets=5
+dependency8.to=door
+dependency6.type=UsesDependency
+=======
 class.EMOB.image=orange.png
 class.EMOB.superclass=greenfoot.Actor
 class.HIYAKASHI.image=HIYAKASHI.png
@@ -49,8 +108,51 @@ target1.height=50
 target1.name=door
 target1.naviview.expanded=true
 target1.showInterface=false
+>>>>>>> ca0409e8eb2a3ba58e810028a5618da0ec348968
 target1.type=ClassTarget
+dependency9.to=EMOA
+target6.y=10
 target1.typeParameters=
+<<<<<<< HEAD
+target6.x=70
+class.EMOA.image=girlfront1.png
+target1.naviview.expanded=true
+target2.editor.y=414
+target2.height=50
+target2.editor.x=914
+target4.height=50
+target5.y=10
+target5.x=70
+target1.name=door
+target4.y=70
+target4.x=70
+target3.editor.width=900
+dependency7.from=MyWorld
+target3.y=10
+target3.x=160
+dependency7.type=UsesDependency
+target2.type=ClassTarget
+target2.y=70
+class.MyWorld.superclass=greenfoot.World
+target2.x=160
+class.cat.image=cat-idle.png
+mainWindow.y=336
+mainWindow.x=516
+dependency1.from=MyWorld
+target6.typeParameters=
+target5.width=80
+target1.y=130
+target1.x=100
+dependency1.type=UsesDependency
+target2.editor.width=900
+target4.editor.y=77
+target1.editor.height=700
+target4.editor.x=131
+target2.name=cat
+target5.editor.height=700
+target6.editor.y=380
+package.numDependencies=5
+=======
 target1.width=80
 target1.x=70
 target1.y=70
@@ -85,14 +187,44 @@ target4.editor.width=900
 target4.editor.x=105
 target4.editor.y=72
 target4.height=50
+<<<<<<< HEAD
 target4.name=Title
+=======
+target4.name=EMOA
+>>>>>>> ca0409e8eb2a3ba58e810028a5618da0ec348968
+>>>>>>> 5079625593e03de95cbf8622c0e908bdda7dd23c
 target4.naviview.expanded=true
-target4.showInterface=false
-target4.type=ClassTarget
-target4.typeParameters=
+target6.editor.x=1020
+dependency8.from=MyWorld
+target3.editor.height=700
+dependency8.type=UsesDependency
+target3.type=ClassTarget
 target4.width=80
+<<<<<<< HEAD
 target4.x=10
 target4.y=130
+=======
+<<<<<<< HEAD
+dependency2.from=EMOA
+dependency2.type=UsesDependency
+target5.typeParameters=
+world.lastInstantiated=MyWorld
+target2.showInterface=false
+mainWindow.height=529
+target3.name=EMOA
+target6.showInterface=false
+target1.editor.width=900
+dependency9.from=door
+target3.naviview.expanded=true
+class.MyWorld.image=private-floor.png
+project.charset=UTF-8
+target3.width=80
+=\=\=\=\=\=\=
+target4.showInterface=false
+=======
+target4.x=160
+target4.y=10
+>>>>>>> 5079625593e03de95cbf8622c0e908bdda7dd23c
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=1041
@@ -134,3 +266,4 @@ target7.x=100
 target7.y=130
 version=2.7.1
 world.lastInstantiated=Title
+>>>>>>> ca0409e8eb2a3ba58e810028a5618da0ec348968

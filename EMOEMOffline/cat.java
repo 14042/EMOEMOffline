@@ -18,77 +18,119 @@ public class cat extends Actor
     {
         int x = getX();
         int y = getY();
-        int move = 0 + (int)(Math.random()*((20-0)+1));
-        int a = 0 + (int)(Math.random()*((4-0)+1));
+        //int move = 0 + (int)(Math.random()*((20-0)+1));
+        //int a = 0 + (int)(Math.random()*((4-0)+1));
         //int j = 0;
-        if(move == 5)
-        {
-            if( a == 1){
-               for(j=0; j<50; j++)
+        //if(move == 5)
+        //{
+            //if( a == 1){
+
+               animateLeft();
+               if(x-2 >= 75)
                {
-                   animateLeft();
-                   if(x-2 >= 75)
-                   {
-                       setLocation( x-2,y );
-                       x = getX();
-                   }
+                   setLocation( x-2,y );
+                   //x = getX();
+                                      setLocation( x-2,y );
+                   //x = getX();
+                                      setLocation( x-2,y );
+                  // x = getX();
+                                      setLocation( x-2,y );
+                   //x = getX();
+                                      setLocation( x-2,y );
+                   //x = getX();
                }
-            }
-            else if( a == 2){
-               for(j=0; j<50; j++)
-               {
+for(j=0; j<1000; j++)
+{
+}
+            //}
+            //else if( a == 2){
+               //for(j=0; j<50; j++)
+               //{
                    animateRight();
                    if(x+2 <= 590)
                    {
                        setLocation( x+2,y );
-                       x = getX();
+                       //x = getX();
+                       setLocation( x+2,y );
+                       //x = getX();
+                       setLocation( x+2,y );
+                       //x = getX();
+                       setLocation( x+2,y );
+                      // x = getX();
+                       setLocation( x+2,y );
+                       //x = getX();
                    }
-               }
-            }
-            else if( a == 3){
-               for(j=0; j<50; j++)
-               {
+               //}
+           // }
+           for(j=0; j<1000; j++)
+{
+}
+            //else if( a == 3){
+               //for(j=0; j<50; j++)
+               //{
                    animateUp(); 
                    if(y-2 >= 100)
                    {
                        setLocation( x,y-2 );
-                       y = getY();
+                       //y = getY();
+                       setLocation( x,y-2 );
+                       //y = getY();
+                       setLocation( x,y-2 );
+                       //y = getY();
+                                              setLocation( x,y-2 );
+                      // y = getY();
+                                              setLocation( x,y-2 );
+                       //y = getY();
                    }
-               }
-            }
-            else if( a == 4 ){
-              for(j=0; j<50; j++)
-              {
+               //}
+           // }
+           for(j=0; j<1000; j++)
+{
+}
+            //else if( a == 4 ){
+              //for(j=0; j<50; j++)
+              //{
                    animateDown();
                    if(y+2 <= 380)
                    {
                        setLocation( x,y+2 );    
-                       y = getY();
+                       //y = getY();
+                       setLocation( x,y+2 );    
+                       //y = getY();
+                       setLocation( x,y+2 );    
+                       //y = getY();
+                       setLocation( x,y+2 );    
+                       //y = getY();
+                       setLocation( x,y+2 );    
+                       //y = getY();
+
                    }
-              }
-            }
+                   for(j=0; j<1000; j++)
+{
+}
+                   animateIdle();
+                   for(j=0; j<1000; j++)
+{
+}
+                   j = 0;
         }
-        j = 0;
-        }// Add your action code here.
+        //else
+        //{
+
+        //}
+
+
         
    public void animateLeft(){
        if(i == 0)
         {
-            setImage("girlleft1.png");
+            setImage("cat-side1.png");
         }
        else if(i == 10)
         {
-            setImage("girlleft2.png");
+            setImage("cat-side2.png");
         }
-       else if(i == 20)
-        {
-            setImage("girlleft1.png");
-        }
-       else if(i == 30)
-        {
-            setImage("girlleft3.png");
-        }
-        else if(i == 40)
+        else if(i == 20)
         {
             i = 0;
             return;
@@ -99,22 +141,14 @@ public class cat extends Actor
     public void animateRight(){
         if(i == 0)
         {
-            setImage("girlright1.png");
+            setImage("cat-side3.png");
         }
       else if(i == 10)
         {
-            setImage("girlright2.png");
+            setImage("cat-side4.png");
         }
        else if(i == 20)
-        {
-            setImage("girlright1.png");
-        }
-       else if(i == 30)
-        {
-            setImage("girlright3.png");
-        }
-        else if(i == 40)
-        {
+       {
             i = 0;
             return;
         }
@@ -124,19 +158,19 @@ public class cat extends Actor
     public void animateUp(){
         if(i == 0)
         {
-            setImage("girlback1.png");
+            setImage("cat-back1.png");
         }
        else if(i == 10)
         {
-            setImage("girlback2.png");
+            setImage("cat-back2.png");
         }
        else if(i == 20)
         {
-            setImage("girlback1.png");
+            setImage("cat-back1.png");
         }
        else if(i == 30)
         {
-            setImage("girlback3.png");
+            setImage("cat-back3.png");
         }
         else if(i == 40)
         {
@@ -148,21 +182,33 @@ public class cat extends Actor
     public void animateDown(){
         if(i == 0)
         {
-             setImage("girlfront1.png");
+             setImage("cat-front1.png");
         }
        else if(i == 10)
         {
-            setImage("girlfront2.png");
+            setImage("cat-front2.png");
         }
        else if(i == 20)
         {
-            setImage("girlfront1.png");
+            setImage("cat-front1.png");
         }
        else if(i == 30)
         {
-            setImage("girlfront3.png");
+            setImage("cat-front3.png");
         }
         else if(i == 40)
+        {
+            i = 0;
+            return;
+        }
+        i++;
+    } 
+        public void animateIdle(){
+        if(i == 0)
+        {
+             setImage("cat-idle.png");
+        }
+       else if(i == 10)
         {
             i = 0;
             return;

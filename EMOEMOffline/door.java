@@ -19,10 +19,13 @@ public class door extends Actor
                    
         Actor actor = getOneObjectAtOffset( 0, 0, EMOA.class );
         if( actor != null ){
+           
             getWorld().showText( "外に出ますか?\n\n Yes:Space", 340, 240 );
             if( Greenfoot.isKeyDown( "space" ) ){
                 getWorld().showText( "本当に?\n\n Yes:Enter", 340, 240 );
                 if( Greenfoot.isKeyDown( "enter" ) ){
+                    getWorld().showText( "", 340, 240 );
+                    getWorld().showText( "GAME OVER\n", 340, 220 );
                     Greenfoot.stop();
                 }   
             }

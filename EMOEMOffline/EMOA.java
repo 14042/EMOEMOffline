@@ -37,7 +37,7 @@ public class EMOA extends Actor
             }
             if( Greenfoot.isKeyDown( "up" ) ){
                animateUp(); 
-               if(y-2 >= 100)
+               if( y-2 >= 180 )
                {
                    setLocation( x,y-2 );
                }
